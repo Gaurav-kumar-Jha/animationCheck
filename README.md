@@ -1,31 +1,48 @@
-# Car Scroll Animation - Frontend Project
+# Scroll-Driven Hero Animation
 
-Hello! This is my frontend project where I practiced creating a cool car animation that happens as you scroll down the page. I built this to learn how to use the **GSAP** library and the **ScrollTrigger** plugin for smooth web animations.
+**Assignment:** Scroll-driven hero animation (Internshala – Itzfizz Digital)
 
-## � Project Goal
-The main idea was to make a car drive across the screen and "reveal" some text behind it as it passes by. I also added some info boxes that appear at different heights while scrolling.
+## 📌 Overview
 
-## ⭐ Features
-- **Scrolling Car**: The car moves left and right based on your scroll behavior.
-- **Auto-Reveal Text**: Each letter of "WELCOME" pops up exactly when the car goes over it.
-- **Green Trail**: A line draws behind the car to show the path taken.
-- **Fading Info Boxes**: Different stats fade in and out as you continue scrolling.
+This project demonstrates a scroll-based hero section animation built as part of a web development internship assignment. The goal was to create a smooth, responsive, and performance-optimized UI interaction using modern front-end technologies.
 
-## 🛠️ Things I Used
-- **HTML**: For the page structure and placing the car image.
-- **CSS**: For styling the road, text boxes, and making sure the track stays on screen (Sticky positioning).
-- **JavaScript (GSAP)**: This was the main part! I used GSAP to handle all the math for the car's position and the timing of the reveals.
+## 🚀 Tech Stack
 
-## 📂 How to Open
-1. Download the files.
-2. Make sure you have the `assets` folder with the car image.
-3. Open `index.html` in your browser! 
-*(Note: It works best if you use a Live Server so the scripts load correctly).*
+* HTML
+* CSS
+* JavaScript
+* GSAP (GreenSock Animation Platform)
 
-## 💡 What I Learned
-- How to use `position: sticky` in CSS.
-- How to link GSAP libraries using a CDN.
-- Basic logic for checking if an element has crossed a certain point on the screen.
+## ✨ Features
 
----
-*Created by [Your Name] for my Frontend Development practice/Internship.*
+* Scroll-triggered hero animation
+* Smooth transitions and motion effects
+* Responsive layout across screen sizes
+* Clean and structured codebase
+
+## 🎯 Objective
+
+To implement an interactive hero section that responds to user scrolling while maintaining smooth animation performance and responsive design.
+
+## 🛠️ How to Run the Project
+
+1. Clone the repository
+   `git clone https://github.com/Gaurav-kumar-Jha/animationCheck`
+
+2. Open the project folder
+
+3. Run `index.html` in a browser
+
+## 📁 Project Structure
+
+* `index.html` – Main layout and hero section
+* `style.css` – Styling and responsiveness
+* `script.js` – Animation logic and GSAP integration
+
+## 📷 Result
+
+The hero section animates based on scroll behavior, showcasing smooth UI transitions and interactive motion using GSAP.
+
+## 👨‍💻 Author
+
+Gaurav Kumar Jha
